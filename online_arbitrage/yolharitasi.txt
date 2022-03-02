@@ -1,0 +1,133 @@
+1-) Türkiyeden öncelikle ürün bulunurken scrape edilecek siteler:
+    * Ürün tipleri:
+        * Yeni pazara çıkmış ürün (Reklamlı, en yeni)
+        * TR'de tutmuş ürün (En çok değerlendirilenler)
+    
+
+    * ciceksepeti.com
+        * Kategoriler:
+            * Takı, Saat : https://www.ciceksepeti.com/hediye-taki
+            * Kozmetik : https://www.ciceksepeti.com/kozmetik
+            * Oyuncak : https://www.ciceksepeti.com/hediye-oyun-oyuncak
+            * Anne & Bebek : https://www.ciceksepeti.com/anne-bebek-hediyeleri
+        
+    * trendyol.com
+        * Kategoriler:
+            * Designer Takı: https://www.trendyol.com/sr?mid=167356,146790,138993,106766,106754,106302
+            * Saat : https://www.trendyol.com/saat-x-c34
+            * Güneş gözlüğü: https://www.trendyol.com/gunes-gozlugu-x-c105
+            * Bileklik, yüzük : https://www.trendyol.com/sr/bileklik-yuzuk-x-c101-c103
+            * Parfüm, deodorant : https://www.trendyol.com/sr?q=parfum%20ve%20deodorant
+            * Makyaj: https://www.trendyol.com/makyaj-x-c100
+            * Cilt bakım: https://www.trendyol.com/cilt-bakimi-x-c85
+            * Saç bakım: https://www.trendyol.com/sac-bakimi-x-c87
+            * Vucut bakım: https://www.trendyol.com/vucut-bakimi-x-c1204
+            * Güneş ürün: https://www.trendyol.com/yuz-gunes-kremi-x-c1061
+            * Dermokozmetik : https://www.trendyol.com/sr?fl=dermokozmetik-urunler
+            * Sofra-mutfak: https://www.trendyol.com/sr?%20mutfak=%2C%2C&q=sofra%20&qt=sofra%20&st=sofra%20
+            * Hobi: https://www.trendyol.com/sr?q=Pikap%20Muzik%20Aletleri%20Drone%20Plak%20Puzzle
+            * Parti ürünleri: https://www.trendyol.com/sr?q=Led%20Isik%20Diger%20Parti%20Malzemeleri%20Balon
+            * El aletleri: https://www.trendyol.com/sr?q=elektrikli+el+aletleri&qt=elektrikli+el+aletleri&st=elektri&pi=2
+            * Hediyelik ürün: https://www.trendyol.com/sr?q=Konsept%20Hediyelikler%20Atesleyici%20Cakmak
+            * Bebek-beslenme: https://www.trendyol.com/beslenme-emzirme-x-c103752
+            * Erkek-kemer: https://www.trendyol.com/erkek-kemer-x-g2-c1093
+            * Erkek-şapka: https://www.trendyol.com/erkek-sapka-x-g2-c1181?sst=MOST_RATED
+            * Erkek-bileklik: https://www.trendyol.com/erkek-bileklik-x-g2-c101
+            * Oyuncak: https://www.trendyol.com/oyuncak-x-c90
+            * Erkek çocuk giyim: https://www.trendyol.com/sr/cocuk-giyim-x-g3-c82?gag=2-2
+            * Bebek giyim: https://www.trendyol.com/bebek-giyim-x-c104158
+            * Kız çocuk giyim: https://www.trendyol.com/sr/cocuk-giyim-x-g3-c82?gag=1-2
+            * Lüks-designer erkek: https://www.trendyol.com/sr/erkek-x-g2?fl=luks
+            * Erkek kişisel bakım: https://www.trendyol.com/erkek-kozmetik-x-g2-c89
+            * Ev gereçleri: https://www.trendyol.com/ev-gerecleri-x-c104216
+            * Ev hobi: https://www.trendyol.com/hobi-x-c97
+            * Lüks designer Ayakkabı-çanta: https://www.trendyol.com/sr?q=Ayakkab%C4%B1%20%C3%87anta&fl=luks
+
+    * Amazon.ae olası kategoriler:
+            * Designer Takı: https://www.trendyol.com/sr?mid=167356,146790,138993,106766,106754,106302
+            * Lüks designer Ayakkabı-çanta: https://www.trendyol.com/sr?q=Ayakkab%C4%B1%20%C3%87anta&fl=luks
+            * Saat : https://www.trendyol.com/saat-x-c34
+            * Güneş gözlüğü: https://www.trendyol.com/gunes-gozlugu-x-c105
+            * Bileklik, yüzük : https://www.trendyol.com/sr/bileklik-yuzuk-x-c101-c103
+            * Sofra-mutfak: https://www.trendyol.com/sr?%20mutfak=%2C%2C&q=sofra%20&qt=sofra%20&st=sofra%20
+            * Hobi: https://www.trendyol.com/sr?q=Pikap%20Muzik%20Aletleri%20Drone%20Plak%20Puzzle
+            * Parti ürünleri: https://www.trendyol.com/sr?q=Led%20Isik%20Diger%20Parti%20Malzemeleri%20Balon
+            * Hediyelik ürün: https://www.trendyol.com/sr?q=Konsept%20Hediyelikler%20Atesleyici%20Cakmak
+            * Erkek-kemer: https://www.trendyol.com/erkek-kemer-x-g2-c1093
+            * Erkek-şapka: https://www.trendyol.com/erkek-sapka-x-g2-c1181?sst=MOST_RATED
+            * Erkek-bileklik: https://www.trendyol.com/erkek-bileklik-x-g2-c101
+            * Erkek çocuk giyim: https://www.trendyol.com/sr/cocuk-giyim-x-g3-c82?gag=2-2
+            * Bebek giyim: https://www.trendyol.com/bebek-giyim-x-c104158
+            * Lüks-designer erkek: https://www.trendyol.com/sr/erkek-x-g2?fl=luks
+            * Erkek kişisel bakım: https://www.trendyol.com/erkek-kozmetik-x-g2-c89
+            * Ev gereçleri: https://www.trendyol.com/ev-gerecleri-x-c104216
+            * Ev hobi: https://www.trendyol.com/hobi-x-c97
+
+    * Amazon.ae öncelik kategoriler:
+        * Takı, Saat : https://www.ciceksepeti.com/hediye-taki
+        * Saat : https://www.trendyol.com/saat-x-c34
+        * Bileklik, yüzük : https://www.trendyol.com/sr/bileklik-yuzuk-x-c101-c103
+        * Sofra-mutfak: https://www.trendyol.com/sr?%20mutfak=%2C%2C&q=sofra%20&qt=sofra%20&st=sofra%20
+        * Hobi: https://www.trendyol.com/sr?q=Pikap%20Muzik%20Aletleri%20Drone%20Plak%20Puzzle
+        * Parti ürünleri: https://www.trendyol.com/sr?q=Led%20Isik%20Diger%20Parti%20Malzemeleri%20Balon
+        * Hediyelik ürün: https://www.trendyol.com/sr?q=Konsept%20Hediyelikler%20Atesleyici%20Cakmak
+        * Erkek-kemer: https://www.trendyol.com/erkek-kemer-x-g2-c1093
+        * Erkek-şapka: https://www.trendyol.com/erkek-sapka-x-g2-c1181?sst=MOST_RATED
+        * Erkek-bileklik: https://www.trendyol.com/erkek-bileklik-x-g2-c101
+        * Erkek çocuk giyim: https://www.trendyol.com/sr/cocuk-giyim-x-g3-c82?gag=2-2
+        * Ev gereçleri: https://www.trendyol.com/ev-gerecleri-x-c104216
+        * Ev hobi: https://www.trendyol.com/hobi-x-c97
+
+    * Amazon.ae onay gereken ürünler:
+        Ink cartridges or toners
+        Perfumes or fragrances
+        Helmets 
+        Contact Lenses
+        Medical Supplies & Equipment
+        Children’s Toys
+        Lithium-ion Batteries
+        Plug-in Chargers
+        Electrical cooking appliances and implements
+        Baby Products
+        Hair care, skin care, body care, or similar products
+
+    * Amazon.ae kısıtlı ürünler:
+        Animals and Animal Products
+        Car & Motorbike
+        Currency, Coins, Cash Equivalents and Gift Cards
+        Cosmetics
+        Drugs, Drug Paraphernalia and Dietary Supplements
+        Food & Beverage
+        Electronics
+        Medical Devices
+        Jewelry
+        Other Products
+        Sex and Sensuality
+        Tobacco and Tobacco-Related Products
+        Weapons
+        Alcohol
+        Gambling & Lottery
+        Clothing
+        Art - Fine Art
+        Art - Home Decor
+        Hazardous and Dangerous Items
+        Human Parts & Burial Artifacts
+        Laser products
+        Stolen Property & Lock Picking Devices
+        Offensive and Controversial Materials
+        Plants, Plant Products, and Seeds
+        Postage meters and stamps
+        Surveillance Equipment
+        Warranties, Service Plans, Contracts, and Guarantees
+        SIM Cards
+        Prepaid Mobile Recharges
+
+2-) Bu sitelerden scrape edildikten sonra Akakce.com üzerinden en ucuz fiyata erişme
+
+    * akakce.com
+
+3-) Bu ürünlerin Amazon.ae üzerinden aratılması
+    * amazon.ae
+
+#$file_taslak = $path + '\ciceksepeti_deneme'
+#&Move-Item -Path $file_taslak -Destination "./Archives"
